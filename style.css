@@ -1,0 +1,41 @@
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.row{
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+.second_row, .third_row{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.second_row>div{
+    flex: 1;
+}
+
+
+.second_row_third_container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.second_row_third_container img{
+    height: calc(50%-5px/2);
+}
+
+.third_row_second_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.third_row > div{
+    flex: 1;
+}
